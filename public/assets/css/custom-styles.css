@@ -26,16 +26,27 @@
 }
 
 /* In a better world I wouldn't have had to make this an id >_> */
-#plus-sign {
+.plus-sign {
     color:#edfcfb;
     font-size: 1.85rem;
     margin-right: 2rem;
 }
 
-#plus-sign:hover {
+.plus-sign:hover {
     color: #ffffff;
     text-shadow: 0 0 1px #d9f9ff, 0 0 2px #d9f9ff, 0 0 4px #d9f9ff, 0 0 6px #d9f9ff;
 }
+
+.save-note {
+    color:#edfcfb;
+    font-size: 1.85rem
+}
+
+.save-note:hover {
+    color: #ffffff;
+    text-shadow: 0 0 1px #d9f9ff, 0 0 2px #d9f9ff, 0 0 4px #d9f9ff, 0 0 6px #d9f9ff;
+}
+
 
 #getStarted {
     font-size: 1.4rem;

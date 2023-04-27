@@ -21,15 +21,15 @@ module.exports = (app) => {
     res.json(db);
 
     // creating body for a new note
-    let userNote = {
+    const newNote = {
       title: req.body.title,
       text: req.body.text,
 
       // assigning a unique id for each new note
-      id: uniqid(),
+      // id: uniqid(),
     };
     // pushing created note to be written in the db.json file
-    db.push(userNote);
+    db.push(newNote);
     fs.writeFileSync('../db/db.json', JSON.stringify(db));
     res.json(db);
 
