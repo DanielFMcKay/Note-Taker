@@ -5,11 +5,12 @@ const path = require('path');
 module.exports = (app) => {
 
 
+  // Routes to notes.html via GET '/notes'
   app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/notes.html'));
   });
 
-  // GET * should return the index.html file.
+  // Routes back to the index.html page
   app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
   })
