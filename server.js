@@ -1,20 +1,25 @@
 // code goes here
+
 const express = require('express');
 
+// I really wanna go against the grain here on the whole "app" thing...
 const app = express();
 
-const PORT = process.env.PORT || 3001;
+
+// This are live listening PORT
+const PORT = process.env.PORT || 3001
+;
+
 
 app.use(express.static('public'));
-
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-// links to 
-require('./routes/apiRoutes')(app);
-require('./routes/htmlRoutes')(app);
+// routes for the Route God
+require('./routes/apiRoutes.js')(app);
+require('./routes/htmlRoutes.js')(app);
 
 
 // Kind of important to actually 
