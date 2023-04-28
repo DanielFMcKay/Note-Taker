@@ -26,27 +26,39 @@
 }
 
 /* In a better world I wouldn't have had to make this an id >_> */
-.plus-sign {
+#plus-sign {
     color:#edfcfb;
-    font-size: 1.85rem;
-    margin-right: 2rem;
+    font-size: 2rem;
+    margin-right: 2.25rem;
 }
 
-.plus-sign:hover {
+#plus-sign:hover {
     color: #ffffff;
     text-shadow: 0 0 1px #d9f9ff, 0 0 2px #d9f9ff, 0 0 4px #d9f9ff, 0 0 6px #d9f9ff;
 }
 
-.save-note {
+#disc-drive {
     color:#edfcfb;
-    font-size: 1.85rem
+    font-size: 2rem
 }
 
-.save-note:hover {
+#disc-drive:hover {
     color: #ffffff;
     text-shadow: 0 0 1px #d9f9ff, 0 0 2px #d9f9ff, 0 0 4px #d9f9ff, 0 0 6px #d9f9ff;
 }
 
+.note-area {
+    position: relative;
+}
+
+.delete-note {
+    position: absolute;
+    right: 10%;
+}
+
+.delete-note:hover {
+    box-shadow: 0 0 1px #f84c4c, 0 0 2px #f84c4c, 0 0 4px #f84c4c, 0 0 8px #f84c4c, 0 0 12px #f84c4c;
+}
 
 #getStarted {
     font-size: 1.4rem;

@@ -58,17 +58,27 @@ body {
 
 
 .list-container .list-group,
-.list-container .list-group-item:first-child,
 .list-container .card {
   border: 2px solid #bec2c5;
   border-top: none;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
+  background: linear-gradient(to right, #9becfa, #f6ffff 35%, #ffffff)
+}
+
+.list-container .list-group-item:first-child {
+ border-right: transparent;
+ border-left: none;
+ border-top: 2px solid #bec2c5;
+ border-top-right-radius: 0;
+ border-top-left-radius: 0;
 }
 
 .list-item-title {
+  font-size: 1.1rem;
   display: inline-block;
   width: 75%;
+  text-shadow: 2px 2px 2px #d3d3d3;
 }
 
 .list-container i {
@@ -77,8 +87,15 @@ body {
 }
 
 .list-container .list-group-item {
+  background: #fefdf8;
   border-left: none;
   border-right: none;
+  border-bottom: 2px solid #bec2c5;
   padding: 20px;
   cursor: pointer;
+}
+
+.list-group-item:hover 
+{
+  background: #ebf9ff;
 }
