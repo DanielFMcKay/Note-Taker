@@ -2,7 +2,7 @@
 const fs = require('fs')
 const path = require('path');
 
-var uniqid = require('uniqid');
+const uniqid = require('uniqid');
 
 
 // routing stuff

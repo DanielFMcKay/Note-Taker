@@ -27,6 +27,7 @@
 
 /* In a better world I wouldn't have had to make this an id >_> */
 #plus-sign {
+    justify-self: center;
     color:#edfcfb;
     font-size: 2rem;
     margin-right: 2.25rem;
@@ -39,7 +40,7 @@
 
 #disc-drive {
     color:#edfcfb;
-    font-size: 2rem
+    font-size: 2.25rem
 }
 
 #disc-drive:hover {
