@@ -26,14 +26,14 @@
 }
 
 /* In a better world I wouldn't have had to make this an id >_> */
-#plus-sign {
+#refresh {
     justify-self: center;
     color:#edfcfb;
     font-size: 2rem;
     margin-right: 2.25rem;
 }
 
-#plus-sign:hover {
+#refresh:hover {
     color: #ffffff;
     text-shadow: 0 0 1px #d9f9ff, 0 0 2px #d9f9ff, 0 0 4px #d9f9ff, 0 0 6px #d9f9ff;
 }
