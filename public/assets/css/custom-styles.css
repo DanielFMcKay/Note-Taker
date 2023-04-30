@@ -1,6 +1,7 @@
 /* Making CSS files is relaxing */
 
 #header-bar {
+    width: 100%;
     background: linear-gradient(0.5turn, #00a2c2, #23bfdf,#92efff);
 }
 
@@ -31,6 +32,8 @@
     color:#edfcfb;
     font-size: 2rem;
     margin-right: 2.25rem;
+    margin-left: 1rem;
+    float: right;
 }
 
 #refresh:hover {
@@ -40,7 +43,8 @@
 
 #disc-drive {
     color:#edfcfb;
-    font-size: 2.25rem
+    font-size: 2.25rem;
+    margin-right: 2.25rem;
 }
 
 #disc-drive:hover {
@@ -83,4 +87,14 @@
         background: linear-gradient(0.42turn, #88ffd7, #cbffed 10%, #d5fff1 40%, #f0fcf8 95%);
         border-radius: 12px;
         border: 1px solid rgb(176, 240, 224);
+    }
+
+    @media screen and (max-width: 480px) {
+        #header-bar a {
+            margin-left: 1rem;
+        }
+        #disc-drive {
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
     }
