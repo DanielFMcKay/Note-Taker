@@ -13,8 +13,10 @@ body {
   width: 66%;
 }
 
+
 .icons i {
-  display: inline;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-size: 2rem;
   cursor: pointer;
 }
@@ -105,12 +107,21 @@ body {
 
 @media screen and (max-width: 640px) {
   .icons {
-    max-width: 12rem;
+    max-width: 16rem;
+  }
+  .list-item-title {
+    font-size: 0.9rem;
+    text-shadow: 1px 1px 1px #d3d3d3;
   }
 }
 
 @media screen and (max-width: 480px) {
   .icons {
-    max-width: 5 rem;
+    width: 50%;
+    max-width: 6 rem;
+  }
+
+  .list-item-title {
+    font-size: 0.75rem;
   }
 }

@@ -1,7 +1,6 @@
 /* Making CSS files is relaxing */
 
 #header-bar {
-    width: 100%;
     background: linear-gradient(0.5turn, #00a2c2, #23bfdf,#92efff);
 }
 
@@ -28,12 +27,10 @@
 
 /* In a better world I wouldn't have had to make this an id >_> */
 #refresh {
-    justify-self: center;
     color:#edfcfb;
     font-size: 2rem;
-    margin-right: 2.25rem;
-    margin-left: 1rem;
     float: right;
+    margin-right: 2.25rem;
 }
 
 #refresh:hover {
@@ -43,8 +40,7 @@
 
 #disc-drive {
     color:#edfcfb;
-    font-size: 2.25rem;
-    margin-right: 2.25rem;
+    font-size: 2rem
 }
 
 #disc-drive:hover {
@@ -91,10 +87,14 @@
 
     @media screen and (max-width: 480px) {
         #header-bar a {
-            margin-left: 1rem;
+            margin-left: 0.9rem;
+            font-size: 1.5rem;
         }
         #disc-drive {
-            margin-right: 1rem;
-            margin-left: 1rem;
+            margin-right: 4rem;
+        }
+
+        #disc-drive, #refresh {
+            font-size: 1.75rem;
         }
     }
