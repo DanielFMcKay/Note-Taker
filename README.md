@@ -13,7 +13,7 @@
 
 ## Overview
 
-* This is an assignment for week 13 of BootCamp Spot's Full Stack Coding Bootcamp, as offered by UC Berkeley continuing education.
+* This is an assignment for week 11 of BootCamp Spot's Full Stack Coding Bootcamp, as offered by UC Berkeley continuing education.
 
 * This assignment is to modify starter code to create a note taking app that can be used to write and save notes and store them in Express.js on the back end, retrieving them in a JSON file.
 
